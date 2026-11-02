@@ -1,0 +1,17 @@
+Dragon Host bot update: Pinggy.io SSH tunneling
+
+This update uses Pinggy.io (Pinggy), NOT Playit.gg.
+
+What it does:
+- Installs openssh-client inside each deployed VPS container.
+- Starts an SSH reverse TCP tunnel using Pinggy's SSH endpoint.
+- Forwards the public TCP tunnel to the VPS SSH service at 127.0.0.1:22.
+- Shows the detected public TCP address in the deployment DM and VPS management view.
+- Reconnect Tunnel restarts the Pinggy SSH tunnel.
+
+Pinggy command used:
+ssh -p 443 -R0:127.0.0.1:22 tcp@a.pinggy.io
+
+After replacing bot.py and bot.env, restart your Discord bot. Deploy a test VPS and check its DM for the public TCP address. If no address appears, inspect /var/log/pinggy.log inside that VPS and check outbound SSH connectivity.
+
+The bot's Python syntax check passed. A live tunnel test was not run in this environment. Pinggy service availability and any account/service limits are controlled by Pinggy.

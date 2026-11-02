@@ -1,0 +1,26 @@
+# ========================================================================
+                              UPDATED V8 BOT
+# ========================================================================
+
+DISCORD_TOKEN=MTQ2ODEwMjM0NDg3MTkwNzM5Mw.Gzyj3o.Kfrkf--caRmnBeAHhUcfLOSWxa583hiH1aTZBA
+BOT_NAME=EVIL VPS
+PREFIX=!
+YOUR_SERVER_IP=127.0.0.1
+MAIN_ADMIN_ID=1421389604929536040
+VPS_USER_ROLE_ID=1536602275198406696
+DEFAULT_STORAGE_POOL=default
+BOT_VERSION=8.0-PRO
+BOT_DEVELOPER=EVILSAAD
+BOT_THUMBNAIL_URL=https://cdn.discordapp.com/attachments/1421391605012627497/1566790304340643850/file_00000000d0208211a03e73df9a707fcb.png?ex=6ae9d2ae&is=6ae8812e&hm=ab0323f62fb74802ac3d6763ab77360130bd44b0fe45a8363c31472f012c0349&
+BOT_ICON_URL=https://cdn.discordapp.com/attachments/1421391605012627497/1566790304340643850/file_00000000d0208211a03e73df9a707fcb.png?ex=6ae9d2ae&is=6ae8812e&hm=ab0323f62fb74802ac3d6763ab77360130bd44b0fe45a8363c31472f012c0349&
+DEFAULT_VPS_EXPIRATION_DAYS=30
+EXPIRATION_WARNING_DAYS=1
+DEPLOY_RAM=8                        # GB RAM per self-deployed VPS
+DEPLOY_CPU=2                        # CPU cores
+DEPLOY_DISK=60                      # GB disk
+DEPLOY_ROLE_ID=SET_USER_ROLE
+DEPLOY_SLOT=50
+VPS_DEPLOY_LIMIT=1
+
+# Pinggy.io SSH reverse tunnel (forwards public TCP traffic to VPS port 22)
+PINGGY_TUNNEL_ENABLED=true
